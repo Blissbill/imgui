@@ -12,6 +12,7 @@ project "ImGui"
         "imgui.cpp",
         "imgui_draw.cpp",
         "imgui_internal.h",
+        "imgui_tables.cpp",
         "imgui_widgets.cpp",
         "imstb_rectpack.h",
         "imstb_textedit.h",
@@ -23,6 +24,6 @@ project "ImGui"
         systemversion "latest"
         cppdialect "C++17"
         staticruntime "On"
-        
+
     filter { "system:windows", "configurations:Release" }
         buildoptions "/MT"
