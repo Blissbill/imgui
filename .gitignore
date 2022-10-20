@@ -1,3 +1,10 @@
+# VS project files
+*.vcxproj
+
+# Build folders
+bin/
+bin-int/
+
 ## OSX artifacts
 .DS_Store
 
